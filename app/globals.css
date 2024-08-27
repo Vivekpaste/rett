@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "figtree";
+  src: url("../public/Fonts/Figtree-Regular.woff") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "figtree-italic";
+  src: url("../public/Fonts/Figtree-Italic.woff") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "figtree-medium";
+  src: url("../public/Fonts/Figtree-Medium.woff") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "figtree-semibold";
+  src: url("../public/Fonts/Figtree-SemiBold.woff") format("woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "figtree-bold";
+  src: url("../public/Fonts/Figtree-Bold.woff") format("woff2");
+  font-weight: 700;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+:root{
+  --white:#fff;
+  --feta: #F4FAEC;
+  --navy: #11284B;
+  --darkGrey :#333333;
+  --navyBlue: #173462;
+  --hoverGreen: #8bc43f;
+  --crayolaViolet: #9e3795;
+  --yellowGreen:#8BC434;
+  --ghostWhite:#F6F9FC;
+  --blackOlive:#3C3C3C;    
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.stickyNav{
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0px;
+
+}
+
+.customJoinUsLink .customLi:last-child {
+  position: absolute;
+  top: -33px;
+  right: 0%;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.customJoinUsLink .customLi:last-child a {
+  padding: 3px 14px;
+  font-family: "figtree", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: var(--crayolaViolet);
+  color: var(--white);
+  border-radius: 0px 0px 8px 8px;
+}
+
+.customHambugerIcon {
+  display: none !important;
+}
+
+@media screen and (max-width: 1012px) {
+  .customMenuHidden {
+    display: none !important;
+  }
+  .customHambugerIcon {
+    display: block !important;
+  }
+  .customMobileMenu {
+    display: flex !important;
+  }
+  .customMenuMobileBox li:last-child {
+    position: absolute;
+    top: -96px;
+    right: 2%;
+    background-color: var(--crayolaViolet);
+    border-top: none;
+    border-radius: 0px 0px 8px 8px;
+  }
+  .customMenuMobileBox li:last-child div {
+    padding: 2px 12px;
+    color: var(--white) !important;
+  }
+  .customMenuMobileBox li:last-child div span {
+    color: var(--white);
+  }
+}
+
+.customText{
+  line-height: normal;
+}
+
+@media screen and (max-width: 1046px) {
+  .customText{
+    font-size: 58px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .customText{
+    font-size: 46px;
+  }
+}

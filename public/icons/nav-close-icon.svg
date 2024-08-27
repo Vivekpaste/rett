@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="21px" viewBox="0 0 29 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group@2x</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="button/hamburgerExit" transform="translate(0, 1)" stroke="#173462" stroke-width="3">
+            <g id="Group" transform="translate(2, 1.4558)">
+                <line x1="0" y1="0" x2="25.4558441" y2="17" id="Line"></line>
+                <line x1="0" y1="0" x2="25.4558441" y2="17" id="Line" transform="translate(12.7279, 8.5) scale(-1, 1) translate(-12.7279, -8.5)"></line>
+            </g>
+        </g>
+    </g>
+</svg>
